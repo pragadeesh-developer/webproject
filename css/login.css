@@ -8,7 +8,7 @@
       width: 100vw;
       height: 100vh;
       display: flex;
-      background:url(/10578267_4486954.jpg);
+      background:red;
       background-size: cover;
       justify-content: center;
       align-items: center;
@@ -136,3 +136,4 @@
       }
     }
   
+
