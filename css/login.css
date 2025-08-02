@@ -8,7 +8,7 @@
       width: 100vw;
       height: 100vh;
       display: flex;
-      background:red;
+      background:orange;
       background-size: cover;
       justify-content: center;
       align-items: center;
@@ -136,4 +136,5 @@
       }
     }
   
+
 
