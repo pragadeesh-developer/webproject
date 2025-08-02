@@ -1,0 +1,599 @@
+
+*{
+    font-family: "poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+.container{
+    background: yellow;
+    background-position: center;
+    background-size: cover;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+.container .logo{
+    display: flex;
+    margin-top: -7px;
+    margin-left: -120px;
+    font-family: "poppins";
+    font-size:40px;
+    font-weight:500;
+    color:red;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.container .logo::after{
+    content: "\1f354";
+    margin-top: -2px;
+    font-size: 35px;
+}
+.icon1{
+    position: absolute;
+    background: white;
+    border-radius:12px;
+    margin-left: -120px;
+}
+.icon2{
+    position: absolute;
+    background-color: white;
+    border-radius:12px;
+}
+i{
+    font-size: 23px;
+    padding: 15px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom:15px ;
+    color:black;
+    margin-top: -25px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+}
+
+.container .box-container .box{
+    border-radius: 20px;
+    background:linear-gradient(360deg,rgb(231, 107, 5),red);
+    text-align: center;
+    padding: 30px 20px;
+}
+.container .box-container .box img{
+    height: 90px;
+    background: none;
+}
+.container.box-container.box h3{
+    color:black;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.container .box-container .box p{
+    font-size: 25px;
+    color:white;
+    font-weight: 100;
+    font-family: "poppins";
+}
+.container .box-container .box h4{
+    color: white;
+    font-weight: 500;
+}
+.container .box-container .box #btn1{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn2{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn3{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn4{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn5{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn6{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn7{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn8{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn9{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn10{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn11{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.container .box-container .box #btn12{
+    margin-top: 10px;
+    display: inline-block;
+    background:black;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+#p1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m1 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+#p2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+
+#p3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+#p4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    margin-top: 15px;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+#m4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    font-size: 25px;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+#p5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+#p6 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m6 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+#p7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m7 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+#p8 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m8 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    font-size: 25px;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+#p9 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m9 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+#p10 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m10 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+#p11 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m11 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 25px;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+#p12 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+#m12 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    display: flex;
+    background-color: black;
+    color: #fff;
+    margin-left: 17%;
+    margin-top: -33px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------- Responsive Design ----------- */
+@media screen and (max-width: 1024px) {
+    
+    .container .logo {
+        margin-left: 0;
+        font-size: 30px;
+    }
+    .icon1, .icon2 {
+        margin-left: 0;
+        position: relative;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .container .heading {
+        font-size: 36px;
+        margin-top: 0;
+    }
+    .container .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    button[id^="p"], button[id^="m"] {
+        position: relative !important;
+        margin: 10px 5px !important;
+        display: inline-block !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .container {
+        padding: 10px 5%;
+    }
+    .container .heading {
+        font-size: 28px;
+    }
+    .container .logo {
+        font-size: 24px;
+    }
+    .container .box-container .box {
+        padding: 20px 10px;
+    }
+    button[id^="p"], button[id^="m"] {
+        position: relative !important;
+        margin: 10px 5px !important;
+        display: inline-block !important;
+    }
+     
+    .container .box-container .box h4 {
+        font-size: 18px;
+    }
+    i {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .container .logo::after{
+        display: none;
+    }
+    .container .run{
+        width: 300px;
+        align-items: center;
+        justify-content:end;
+        margin-left: 23rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    button[id^="p"], button[id^="m"] {
+        position: static !important;
+        display: inline-block !important;
+        margin: 5px 10px !important;
+    }
+    .container .box-container .box h5 {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .container .run{
+        position: fixed;
+        width:50%;
+        height: auto;
+        margin-left: 12rem;
+        margin-top:-2rem; 
+    }
+    .container .logo::after{
+        display: none;
+    }
+}
+            
+               

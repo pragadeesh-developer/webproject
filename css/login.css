@@ -1,0 +1,138 @@
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      box-sizing: border-box;
+    }
+    body {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      background:url(/10578267_4486954.jpg);
+      background-size: cover;
+      justify-content: center;
+      align-items: center;
+      background-position: center;
+      background-attachment: fixed;
+      overflow-x: hidden;
+      padding: 20px;
+    }
+    .container {
+      width: 450px;
+      max-width: 100%;
+      height: auto;
+      background-color: transparent;
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 20px;
+      border: 1px solid white;
+    }
+    h1 {
+      display: flex;
+      align-items: center;
+      color: white;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    #input-box {
+      padding: 10px 0;
+    }
+    #input-box input {
+      width: 100%;
+      height: 40px;
+      border-radius: 20px;
+      font-size: 18px;
+      padding: 6px 12px;
+      color: black;
+      font-weight: 400;
+      outline: none;
+      border: none;
+    }
+    .remember-forgot {
+      margin-top: 10px;
+      font-size: 16px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    #btn {
+      width: 50%;
+      height: 50px;
+      border-radius: 15px;
+      outline: none;
+      margin-left: 25%;
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+      border: none;
+    }
+    #logout{ 
+      width: 50%;
+      height: 50px;
+      border-radius: 15px;
+      outline: none;
+      margin-top: 20px;
+      font-weight: 600;
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+      border: none;
+      display: none;
+    }
+    #btn:hover {
+      color: white;
+      background: black;
+    }
+    #logout:hover {
+      color: white;
+      background: black;
+    }
+    .register-link {
+      margin-top: 20px;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+    }
+    .register-link a {
+      color: white;
+      text-decoration: underline;
+      margin-left: 5px;
+    }
+    #logout {
+      width: 100px;
+      height: 40px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: white;
+      color: black;
+      font-family: "Poppins", sans-serif;
+      border: none;
+      border-radius: 8px;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      button #logout, #btn {
+        font-size: 18px;
+      }
+      #logout{
+        display: none;
+      }
+      .remember-forgot {
+        font-size: 14px;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .register-link {
+        font-size: 14px;
+      }
+    }
+  

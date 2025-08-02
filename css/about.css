@@ -1,0 +1,166 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color:yellow;
+    }
+
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      padding: 100px 20px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    .icon1 {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: aliceblue;
+      border-radius: 4px;
+      width: 45px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .icon1 i {
+      font-size: 22px;
+      color: black;
+    }
+
+    h1 {
+      width: 150px;
+      font-weight: 500;
+      font-size: 32px;
+      margin-bottom: 40px;
+      text-align: center;
+      background:blue;
+      color: white;
+      border-radius: 7px;
+    }
+
+    .boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+      max-width: 1200px;
+      overflow: auto;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+
+    #box {
+      background-color: black;
+      border-radius: 12px;
+      width: 320px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    #box img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    #box p {
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    #box h5 {
+      color: gold;
+      font-size: 18px;
+    }
+     #reviewInput{
+      width:90%;
+      height: 30px;
+      border-radius: 6px;
+    }
+
+    #reviewInput2{
+      width:90%;
+      height: 30px;
+      border-radius: 6px;
+    }
+    
+    #reviewInput3{
+      width:90%;
+      height: 30px;
+      border-radius: 6px;
+    }
+   
+
+.boxes button{
+  width: 100px;
+  height:30px;
+  background-color:blue;
+  color: white;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 26px;
+        margin-top: 20px;
+      }
+
+      .icon1 {
+        width: 40px;
+        height: 36px;
+      }
+
+      .icon1 i {
+        font-size: 20px;
+      }
+
+      #box {
+        width: 90%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding-top: 80px;
+      }
+
+      h1 {
+        font-size: 22px;
+        margin-bottom: 30px;
+      }
+
+      #box {
+        width: 100%;
+        padding: 15px;
+      }
+
+      #box p {
+        font-size: 14px;
+      }
+
+      #box h5 {
+        font-size: 16px;
+      }
+    }
+    
